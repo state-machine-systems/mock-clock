@@ -18,4 +18,13 @@ needed. Here's an example of how to use it:
 
     assertThat(testSubject.someMethod(), is(expectedValueAfter30Seconds));
 
+This library is in the Maven Central repo, so just add the following chunk to your pom.xml (or the equivalent for Gradle/SBT/whatever):
+
+    <dependency>
+        <groupId>com.statemachinesystems</groupId>
+        <artifactId>mock-clock</artifactId>
+        <version>1.0</version>
+    </dependency>
+
+
 &copy; 2015 State Machine Systems Ltd. [Apache Licence, Version 2.0]( http://www.apache.org/licenses/LICENSE-2.0)
