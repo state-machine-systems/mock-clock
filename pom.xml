@@ -4,7 +4,7 @@
 
     <groupId>com.statemachinesystems</groupId>
     <artifactId>mock-clock</artifactId>
-    <version>1.0</version>
+    <version>1.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <name>mock-clock</name>
@@ -23,7 +23,7 @@
         <connection>scm:git:git@github.com:state-machine-systems/mock-clock.git</connection>
         <developerConnection>scm:git:git@github.com:state-machine-systems/mock-clock.git</developerConnection>
         <url>git@github.com:state-machine-systems/mock-clock.git</url>
-        <tag>mock-clock-1.0</tag>
+        <tag>HEAD</tag>
     </scm>
 
     <developers>
