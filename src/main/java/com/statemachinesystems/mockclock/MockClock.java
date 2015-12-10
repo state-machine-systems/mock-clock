@@ -381,10 +381,7 @@ public class MockClock extends Clock {
 
     @Override
     public String toString() {
-        return "MockClock{" +
-                "instant=" + instant +
-                ", zone=" + zone +
-                '}';
+        return "MockClock[" + instant + "," + zone + "]";
     }
 
     @Override
